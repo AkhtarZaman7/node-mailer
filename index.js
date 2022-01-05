@@ -13,7 +13,7 @@ app.use("/", indexRouter);
 
 
 
-const port =process.env.PORT|| 5000;
+const port =process.env.PORT|| 1767;
 server.listen(port,()=>{
     console.log(`server is  running on port ${port}`)
 })
